@@ -19,6 +19,7 @@ This project demonstrates a fully serverless architecture on AWS to deploy a web
 6 Route 53 for domain name mapping (optional)
 
  Architecture Flow
+ 
  1 User interacts with the frontend hosted on S3 and CloudFront.
  
  2 API requests are routed through API Gateway.
