@@ -6,12 +6,12 @@ AWS Serverless Architecture with CloudFront, S3, API Gateway, Lambda, and Dynamo
 Project Overview
 This project demonstrates a fully serverless architecture on AWS to deploy a web application. It leverages:
 
- DynamoDB for data storage
- Lambda functions for handling GET and POST operations
- API Gateway for exposing APIs
- S3 for hosting static files (HTML, JavaScript)
- CloudFront for content delivery
- Route 53 for domain name mapping (optional)
+1 DynamoDB for data storage
+2 Lambda functions for handling GET and POST operations
+3 API Gateway for exposing APIs
+4 S3 for hosting static files (HTML, JavaScript)
+5 CloudFront for content delivery
+6 Route 53 for domain name mapping (optional)
 
  Architecture Flow
  User interacts with the frontend hosted on S3 and CloudFront.
